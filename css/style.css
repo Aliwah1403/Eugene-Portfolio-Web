@@ -1000,11 +1000,11 @@ img {
     display: block;
   }
 
-  #my-services .service{
+  #my-services .service {
     padding: 12px 10px;
   }
 
-  #my-services .services h1{
+  #my-services .services h1 {
     font-size: 2.5rem;
   }
 }
@@ -1069,9 +1069,9 @@ img {
   }
 
   .contact-title {
-    font-size: 3rem;
-    padding-top: 5%;
+    font-size: 2.5rem;
     margin-bottom: 40px;
+    margin-top: 25%;
   }
 }
 
@@ -1092,6 +1092,10 @@ img {
 
   #contact .container .contactForm .formBox .inputBox.w50 {
     width: 100%;
+  }
+
+  .contact-title {
+    margin-top: calc(100% + 15px);
   }
 
   #my-services .services h1 {
