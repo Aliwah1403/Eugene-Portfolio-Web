@@ -984,6 +984,29 @@ img {
     margin-bottom: -200px;
     margin-top: 250px;
   }
+
+  .service p#service-description-1::after {
+    content: "";
+    display: block;
+  }
+
+  .service p#service-description-2::after {
+    content: "";
+    display: block;
+  }
+
+  .service p#service-description-3::after {
+    content: "";
+    display: block;
+  }
+
+  #my-services .service {
+    padding: 12px 10px;
+  }
+
+  #my-services .services h1 {
+    font-size: 2.5rem;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -1046,9 +1069,9 @@ img {
   }
 
   .contact-title {
-    font-size: 3rem;
-    padding-top: 5%;
+    font-size: 2.5rem;
     margin-bottom: 40px;
+    margin-top: 25%;
   }
 }
 
@@ -1069,6 +1092,10 @@ img {
 
   #contact .container .contactForm .formBox .inputBox.w50 {
     width: 100%;
+  }
+
+  .contact-title {
+    margin-top: calc(100% + 15px);
   }
 
   #my-services .services h1 {
@@ -1106,10 +1133,34 @@ img {
   }
 }
 
-@media (min-width: 360px) {
+@media (max-width: 500px) {
   #hero .cta {
     padding: 10px 17px;
-    margin-top: 3px;
+    margin-top: 15px;
+  }
+
+  #hero .hero {
+    padding: 0 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  #hero .hero div {
+    margin-top: 35px;
+  }
+
+  #hero h1{
+    font-size: 3.5rem;
+  }
+
+  .brand img {
+    width: 115px;
+    margin-bottom: 15px;
+  }
+
+  #header .hamburger {
+    margin-bottom: 15px;
   }
 }
 /*media query*/
