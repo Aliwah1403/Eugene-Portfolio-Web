@@ -984,6 +984,29 @@ img {
     margin-bottom: -200px;
     margin-top: 250px;
   }
+
+  .service p#service-description-1::after {
+    content: "";
+    display: block;
+  }
+
+  .service p#service-description-2::after {
+    content: "";
+    display: block;
+  }
+
+  .service p#service-description-3::after {
+    content: "";
+    display: block;
+  }
+
+  #my-services .service{
+    padding: 12px 10px;
+  }
+
+  #my-services .services h1{
+    font-size: 2.5rem;
+  }
 }
 
 @media (max-width: 1200px) {
