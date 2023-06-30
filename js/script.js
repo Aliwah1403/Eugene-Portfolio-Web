@@ -1,5 +1,8 @@
-/*Navbar menu*/
+import AOS from "aos";
+import "aos/dist/aos.css";
 
+
+/*Navbar menu*/
 const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
 const mobile_menu = document.querySelector('.header .nav-bar .nav-list ul');
 const menu_item = document.querySelectorAll('.header .nav-bar .nav-list ul li a');
@@ -73,3 +76,5 @@ window.addEventListener("resize", updateServiceDescription1);
 window.addEventListener("resize", updateServiceDescription2);
 window.addEventListener("resize", updateServiceDescription3);
 // Services
+
+
